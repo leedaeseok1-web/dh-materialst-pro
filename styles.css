@@ -176,3 +176,5 @@
 .userListItem small{color:#64748b;font-weight:700}
 #statementTable .noteRow th,#statementTable .noteRow td{background:#fff7e6;text-align:left;white-space:normal;line-height:1.5;font-weight:700}
 #statementTable .noteRow td{font-weight:600;color:#334155}
+
+.userActions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.deleteUserBtn{padding:8px 10px}
