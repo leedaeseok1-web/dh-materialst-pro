@@ -94,13 +94,10 @@
   .brandLogo.brandTextLogo{height:auto;padding:26px 22px 20px}.brandTop img{width:76px;height:76px}.brandName strong{font-size:23px}.brandName span{font-size:10px}.brandBiz{font-size:17px}
   .sidebar nav{padding:14px 18px 8px}.sidebar .nav{height:58px;font-size:20px;border-radius:12px;margin:8px 0;padding:0 18px}.sidebar .nav .ico{width:38px;height:38px;border-radius:11px;background:rgba(255,255,255,.10)}
   .rateBox{position:static;margin:18px;border-radius:14px;padding:18px}.rateBox p{font-size:13px}
-  .topbar{height:66px;padding:0 12px;position:sticky;top:0;z-index:30;box-shadow:0 6px 18px rgba(15,35,70,.06);display:flex;align-items:center;gap:8px}
-  .hamb{font-size:28px;width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
-  .mobileTitle{display:flex;align-items:center;gap:7px;position:static;left:auto;transform:none;font-size:15px;font-weight:900;white-space:nowrap;color:#102033;min-width:0;max-width:148px;overflow:hidden}
-  .mobileTitle img{width:32px;height:32px;object-fit:contain;flex:0 0 auto}.mobileTitle b{overflow:hidden;text-overflow:ellipsis}
-  .topRight{gap:6px;margin-left:auto;min-width:0;flex:0 0 auto}.topRight .monthLabel,.bell,.admin,#resetDemo{display:none!important}
-  #profileBtn,#logoutBtn{padding:11px 13px;font-size:14px;white-space:nowrap}
-  @media(max-width:430px){.mobileTitle{max-width:56px}.mobileTitle b{display:none}#profileBtn,#logoutBtn{padding:10px 12px;font-size:13px}}
+  .topbar{height:66px;padding:0 16px;position:sticky;top:0;z-index:30;box-shadow:0 6px 18px rgba(15,35,70,.06)}
+  .hamb{font-size:28px;width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center}
+  .mobileTitle{display:flex;align-items:center;gap:8px;position:absolute;left:50%;transform:translateX(-50%);font-size:17px;font-weight:900;white-space:nowrap;color:#102033}
+  .mobileTitle img{width:34px;height:34px;object-fit:contain}.topRight{gap:8px}.topRight .monthLabel,.bell,.admin,#resetDemo{display:none!important}
   .page{padding:18px 16px 20px}.pageTitle{margin:10px 0 18px}.pageTitle h2{font-size:30px;letter-spacing:-1.4px}.pageTitle p{font-size:15px;line-height:1.45}
   .cards{grid-template-columns:1fr;gap:12px;margin-bottom:14px}.card{height:auto;min-height:112px;padding:20px;border-radius:18px;box-shadow:0 12px 30px rgba(15,35,70,.07)}.cardIcon{width:58px;height:58px;border-radius:15px;font-size:30px}.card span{font-size:15px}.card strong{font-size:28px}.card small{font-size:13px}
   #dashboard:before{content:'오늘도 안전한 하루 되세요 👷\A 2026년 기준 특근관리';white-space:pre-line;display:block;background:linear-gradient(135deg,#062037,#0c3761);color:#fff;border-radius:14px;padding:18px 20px;margin-bottom:14px;font-weight:800;line-height:1.65;box-shadow:0 12px 28px rgba(7,29,51,.18)}
@@ -179,5 +176,3 @@
 .userListItem small{color:#64748b;font-weight:700}
 #statementTable .noteRow th,#statementTable .noteRow td{background:#fff7e6;text-align:left;white-space:normal;line-height:1.5;font-weight:700}
 #statementTable .noteRow td{font-weight:600;color:#334155}
-
-.userActions{display:flex;gap:8px;align-items:center;justify-content:flex-end;flex-wrap:wrap}.userActions select{min-width:130px}.userDeleteBtn:disabled{opacity:.45;cursor:not-allowed}
